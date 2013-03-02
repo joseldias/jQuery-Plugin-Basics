@@ -1,0 +1,43 @@
+<style>
+ #machoman{
+ 	width: 20px;
+ 	height: 20px;
+ 	background: #333;
+ }
+
+</style>
+<div id='machoman'>
+	<!-- Macho Macho Man, i want to be a macho man.... -->
+</div>
+
+<script type="text/javascript" language="javascript">
+	(function($){
+		$.fn.moveEx = function(){
+			
+			var base = $(this);
+			base.init = function(){
+				base.moveme();
+			};
+
+			base.function_One = function(){
+				
+			};
+
+			base.function_Two = function(){
+				
+			};
+
+			base.moveme = function(){
+				base.animate({
+					marginLeft: '500px';
+				},500);
+			};
+
+			base.init();
+		};
+
+	})(jQuery);
+
+	$('#machoman').moveEx();
+
+</script>
