@@ -1,0 +1,6 @@
+#mailAnimation{
+ 	width: 128px;
+ 	height: 128px;
+ 	background-color: red;
+ 	background-image: url('/images/mail.png');
+}
